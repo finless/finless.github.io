@@ -1,20 +1,14 @@
 # Site settings
-title:       Pixyll
+title:       Finless
 email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+author:      Finless
+description: "A simple tech theme"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://finless.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
-google_verification:
-# Use either direct GA implementation or set up GTM account
-# - using both will skew your data (leave blank to not use at all)
-google_analytics:
-google_tag_manager:
-# Bing services
-bing_verification:
+google_analytics: 'UA-89931356-1'
 
 # Optional features
 animated:             false
@@ -113,5 +107,4 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll-sitemap
-# https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
